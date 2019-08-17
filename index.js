@@ -5,6 +5,6 @@ var emptyArray = []
 
 function theBeatlesPlay(musicians, instruments) {
   for (var i = 0, i < 2, i++ ) {
-    return musicians + "plays" + instruments
+    return musicians[0] + "plays" + instruments[0]
   }
 }
